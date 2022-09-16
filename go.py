@@ -44,6 +44,6 @@ def audToImage(audName, imgName):
 	img2 = Image.fromarray(arr4, 'RGB')
 	img2.save(imgName)
 
-# imgToAud("test.png","test1.wav")
-audToImage("test2.wav","test2.png")
+imgToAud("test.png","test1.wav")
+# audToImage("test1.wav","test2.png")
 
